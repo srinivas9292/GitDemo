@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test  name="Car Loan">
+  	<parameter name="URL" value="qaclickacademy.com"/>
+    <classes>
+      <class name="project3.project3.day1"/>
+      <class name="project3.project3.day2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Home Loan">
+    <classes>
+      <class name="project3.project3.day3">
+      	<methods>
+      		<exclude name="mobileloginhomeloan"/>
+      		<include name="mobile.*"/>
+      	</methods>
+      	
+      </class>
+      
+      </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
