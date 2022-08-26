@@ -18,5 +18,11 @@ public class day2 {
 		System.out.println("i will execute first");
 	
 	}
+	@Test
+	public void before2()
+	{
+		System.out.println("i will execute second");
+	
+	}
 	
 }
