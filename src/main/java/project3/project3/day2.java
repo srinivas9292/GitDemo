@@ -31,4 +31,10 @@ public class day2 {
 		System.out.println("i will execute Third");
 	
 	}
+	@Test
+	public void before4()
+	{
+		System.out.println("i will execute Fourth");
+	
+	}
 }
