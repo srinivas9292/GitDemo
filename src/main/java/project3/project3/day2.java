@@ -24,5 +24,6 @@ public class day2 {
 		System.out.println("i will execute After");
 	
 	}
+	
 }
 
