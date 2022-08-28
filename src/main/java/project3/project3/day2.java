@@ -19,29 +19,10 @@ public class day2 {
 	
 	}
 	@Test
-	public void before2()
+	public void after()
 	{
-		System.out.println("i will execute second");
+		System.out.println("i will execute After");
 	
 	}
-	
-	@Test
-	public void before3()
-	{
-		System.out.println("i will execute Third");
-	
-	}
-	@Test
-	public void before4()
-	{
-		System.out.println("i will execute Fourth");
-	
-	}
-	@Test
-	public void before5()
-	{
-		System.out.println("i will execute Fifth");
-	
-	}
-	
 }
+
