@@ -25,4 +25,10 @@ public class day2 {
 	
 	}
 	
+	@Test
+	public void before3()
+	{
+		System.out.println("i will execute Third");
+	
+	}
 }
